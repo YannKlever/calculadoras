@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../estilos/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="boxtitulo">CALCULADORA DE LA EDAD DE LA MASCOTA</div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(196, 255, 220)">
+        <a class="navbar-brand" href="#">Menú</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index_imc.html">Calculadora IMC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index_edad.html">Calculadora de edad de una mascota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index_inversion.html">Calculadora de inversión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Salir</a>
+            </ul>
+        </div>
+    </nav>
+    <main class="contenido">
+        <div id="box_imagenes">
+            <img src="../imagenes/Happy.jpeg" alt="Imagen no disponible" id="im_masc1">
+            <img src="../imagenes/Nilo.jpeg" alt="Imagen no disponible" id="im_masc2">
+            <img src="../imagenes/Nico.jpeg" alt="Imagen no disponible" id="im_masc3">
+        </div>
+        <div id="box_nombres_masc">
+            <div id="box_tit2">Happy</div>
+            <div id="box_tit2">Nilo</div>
+            <div id="box_tit2">Nico</div>
+        </div>
+        <div id="box_form3">
+            <div id="box_tit">Calculadora de la edad de la mascota</div>
+            <label>Nombre de la mascota</label>
+            <input type="text" id="in_mascota" name="nombre" placeholder="Ingrese el nombre de la mascota"><br>
+            <label>Edad de la mascota</label>
+            <input type="number" id="in_edad" name="nombre" placeholder="Ingrese la edad de la mascota en años"><br>
+            <button onclick="edad_f()" id="boton_formula">CALCULAR POR FÓRMULA</button>
+            <button onclick="edad_t()" id="boton_tanteo">CALCULAR POR TANTEO</button>
+        </div>
+        <div>
+            <div id="box_tit">Resultado</div>
+            <div id="res_edad"></div>
+            <div id="res_edad2"></div>
+        </div>
+    </main>
+    </main>
+    <script src="../funcion/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    DERECHOS RESERVADOS
+</footer>
+
+</html>

@@ -1,0 +1,176 @@
+#boxtitulo{
+    text-align: center;
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-style: normal;
+    font-size: 500%;
+    color: rgb(21, 255, 0);
+    background-color: black;
+    padding: 0% 10%;
+}
+#box_tit{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    padding: 1% 2%;
+    text-align: center;
+}
+#box_nombres_masc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+#box_tit2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+#box_imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 255, 174);
+    border: 1px solid black;
+}
+#im_masc1{
+    width: 30%;
+}
+#im_masc2{
+    width: 40%;
+}
+#im_masc3{
+    width: 30%;
+}
+#box_form{
+    background-color: rgb(0, 255, 174);
+    padding: 2% 2%;
+    margin: 2% 15%;
+    text-align: center;
+    border: 1px solid black;
+}
+#box_form1{
+    background-color: rgb(0, 255, 174);
+    padding: 2% 2%;
+    margin: 2% 15%;
+    text-align: left;
+    border: 1px solid black;
+}
+#box_form2{
+    background-color: rgb(156, 240, 255);
+    padding: 2% 2%;
+    margin: 2% 15%;
+    text-align: center;
+    border: 1px solid black;
+}
+#box_form3{
+    background-color: rgb(255, 245, 201);
+    padding: 2% 2%;
+    margin: 2% 15%;
+    text-align: center;
+    border: 1px solid black;
+}
+#box_form4{
+    background-color: rgb(187, 255, 180);
+    padding: 2% 2%;
+    margin: 2% 15%;
+    text-align: left;
+    border: 1px solid black;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    width: 100%;
+    font-size: 200%;
+    margin: 1% 1%;
+    color: rgb(0, 0, 0);
+}
+#in_correo, #in_contraseña, #in_peso, #in_altura, #in_edad, #in_mascota, #in_monto, #in_interes, #in_anios{
+    width: 100%;
+    padding: 1% 2%;
+    margin: 1% 1%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+#in_nombre1, #in_nombre2, #in_apellido1, #in_apellido2{
+    width: 40%;
+    padding: 1% 2%;
+    margin: 1% 1%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+#in_fecha{
+    width: 30%;
+    padding: 1% 2%;
+    margin: 1% 1%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+#in_reg_contra{
+    width: 85%;
+    padding: 1% 2%;
+    margin: 1% 1%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+#boton_ingresar, #boton_formula, #boton_tanteo, #boton_monto_f{
+    background-color: blue;
+    color: white;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    font-size: 23px;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 35%;
+}
+#boton_registrar{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    font-size: 23px;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 35%;
+}
+#boton_generar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    font-size: 23px;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 35%;
+}
+#boton_confirmar{
+    background-color: rgb(81, 255, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    color: rgb(7, 7, 7);
+    padding: 1% 2%;
+    margin: 2% 30%;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 35%;
+}
+#res_edad, #res_edad2, #res_imc, #res_monto,#res_correo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(0, 255, 34);
+    background-color: rgb(27, 27, 27);
+    padding: 2% 2%;
+}
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 2% 2%;
+}

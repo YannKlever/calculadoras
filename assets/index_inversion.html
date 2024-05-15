@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../estilos/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="boxtitulo">CALCULADORA DE INVERSIÓN</div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(196, 255, 220)">
+        <a class="navbar-brand" href="#">Menú</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index_imc.html">Calculadora IMC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index_edad.html">Calculadora de edad de una mascota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index_inversion.html">Calculadora de inversión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Salir</a>
+            </ul>
+        </div>
+    </nav>
+    <main class="contenido">
+        <div id="box_form4">
+            <div id="box_tit">Calculadora de inversión-compuesto</div>
+            <label>Ingrese el monto a invertir</label>
+            <input type="number" id="in_monto" name="monto" placeholder="Ingrese el monto a invertir"><br>
+            <label>Ingrese la tasa de interés anual</label>
+            <input type="number" id="in_interes" name="interes" placeholder="Ingrese la tasa de interés"><br>
+            <label>Ingrese la cantidad de años</label>
+            <input type="number" id="in_anios" name="anios" placeholder="Ingrese la cantidad de años"><br>
+            <button onclick="monto_f()" id="boton_monto_f">CALCULAR MONTO FINAL</button>
+        </div>
+        <div>
+            <div id="box_tit">Resultado</div>
+            <div id="res_monto"></div>
+        </div>
+    </main>
+    <script src="../funcion/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    DERECHOS RESERVADOS
+</footer>
+
+</html>
